@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/es/categorias/</loc>
+    <loc>https://example.org/es/categorias/</loc>
   </url><url>
-    <loc>http://localhost:1313/es/</loc>
+    <loc>https://example.org/es/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://example.org/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="https://example.org/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/etiquetas/</loc>
+    <loc>https://example.org/es/etiquetas/</loc>
   </url><url>
-    <loc>http://localhost:1313/es/series/</loc>
+    <loc>https://example.org/es/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://example.org/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/series/"
+                href="https://example.org/es/series/"
                 />
   </url>
 </urlset>
