@@ -1,0 +1,115 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Mario's blog :)
+theme: ["PaperMod"]
+copyright: "© [Mario \"Mariluski\" Rosell"
+
+pagination:
+  pagerSize: 7
+
+buildDrafts: false
+buildFuture: true
+enableEmoji: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: ":us: English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: GitHub
+          url: https://github.com/marluski
+
+  es:
+    languageName: ":es: Español"
+    weight: 2
+    title: El blog de Mario :)
+    taxonomies:
+      category: Categorias
+      tag: Etiquetas
+      series: Series
+    menu:
+      main:
+        - name: Archivos
+          url: archives/
+          weight: 5
+        - name: Etiquetas
+          url: /es/etiquetas
+          weight: 10
+        - name: Categorias
+          url: /es/categorias
+          weight: 10
+        - name: Series
+          url: /es/series
+          weight: 10
+        - name: GitHub
+          weight: 15
+          url: https://github.com/marluski
+
+# Options
+params:
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  env: production
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+
+  ShowToc: true
+
+  displayFullLangName: true
+
+  # home-info mode
+  homeInfoParams:
+    Title: Hi there!
+    Content: >
+      This is my blog!
+      Here you will find tons of stuff about **GNU/Linux**, **coding**, **and more!**
+
+  editPost:
+  URL: "https://github.com/marluski/marluski.github.io/tree/"
+  Text: "Suggest Changes" # edit text
+  appendFilePath: true # to append file path to Edit link
+
+
+  socialIcons:
+    - name: YouTube
+      url: https://www.youtube.com/channel/UCDMui4jJTYSkwPgfcTv6yLw
+    - name: GitHub
+      url: https://github.com/marluski
+    - name: GitLab
+      url: https://gitlab.com/mariluski
+    - name: SourceHut
+      url: https://sr.ht/~mariluski
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
